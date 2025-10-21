@@ -37,7 +37,7 @@ Below is the file structure of this repository, with some quick links to importa
 ### Important Info (quick links):
 - [Learning Git](./learning-git/README.md)
 - [Learning C](./learning-c/README.md)
-- [Team Info](./learning-team-info/README.md)
+- [Team Info](./team-info/README.md)
 
 <div id="Repository Structure">
 
@@ -116,7 +116,7 @@ Click **Fork** at the top right of the repository, and click "create new fork".
 ![3](./Media/cloning-fork.png)
 
 ```bash
-git clone https://github.com/<your-username>/software-tutorials.git
+git clone git@github.com:<your-name>/software-tutorials.git
 cd software-tutorials
 ```
 
@@ -226,20 +226,20 @@ You can find the tutorials in the `tutorials` folder, but here are links to the 
 ```bash
 git add .
 git commit -m "Added tutorial 01 blinky LED project"
+git push
 ```
 
 3. Open a Pull Request (PR)
 
-- Go to your fork on GitHub, and click `Compare & pull request`. Here are some example settings for your PR that you should follow:
-```
-Base repo: UMSAE-Formula-Electric/software-tutorials
-Base branch: main
-Head repo: <your-username>/software-tutorials
-Head branch: tutorial-01
-Title: tutorial-01: blinky LED — <Your Name>
-```
+- Go to your fork on GitHub, and click `Open pull request`.
+<br><br>
+![alt text](./Media/open-a-pr.png)
 
-- Submit the PR and wait for review! ❤️
+- Here's an example of a PR for you to follow. Please add one of the software system leads to the PR so we can review it!
+<br><br>
+![alt text](./Media/submit-a-pr.png)
+
+- Click `Create pull request` and wait for a review! ❤️
 
 4. Wait for a Review!
 
